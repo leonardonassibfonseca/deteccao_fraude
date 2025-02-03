@@ -66,18 +66,21 @@ Passos para calcular:
 2. Definindo os dados dos dois modelos:
 
 # Melhor modelo
+
 fp_model1 = 22 # Falsos Positivos
 fn_model1 = 20 # Falsos Negativos
 tp_model1 = 78 # Verdadeiros Positivos
 tn_model1 = 56842 # Verdadeiros Negativos
 
 # Penúltimo pior modelo
+
 fp_model2 = 8  # Falsos Positivos
 fn_model2 = 56 # Falsos Negativos
 tp_model2 = 42 # Verdadeiros Positivos
 tn_model2 = 56856 # Verdadeiros Negativos
 
 3. Definindo os custos:
+   
 Custo por investigação de falsos positivos: Custo de identificar erroneamente uma fraude.
 custo_por_investigacao_fp = 100 # Custo por investigação de Falsos Positivos (em unidades monetárias)
 
