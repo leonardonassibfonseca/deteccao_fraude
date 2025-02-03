@@ -67,10 +67,10 @@ Passos para calcular:
 
 Melhor modelo
 
-fp_model1 = 22 # Falsos Positivos
-fn_model1 = 20 # Falsos Negativos
-tp_model1 = 78 # Verdadeiros Positivos
-tn_model1 = 56842 # Verdadeiros Negativos
+- fp_model1 = 22 # Falsos Positivos
+- fn_model1 = 20 # Falsos Negativos
+- tp_model1 = 78 # Verdadeiros Positivos
+- tn_model1 = 56842 # Verdadeiros Negativos
 
 Penúltimo pior modelo
 
