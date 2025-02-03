@@ -65,14 +65,14 @@ Passos para calcular:
 1. Obtenção dos valores da matriz de confusão:
 2. Definindo os dados dos dois modelos:
 
-**Melhor modelo**
+Melhor modelo
 
 fp_model1 = 22 # Falsos Positivos
 fn_model1 = 20 # Falsos Negativos
 tp_model1 = 78 # Verdadeiros Positivos
 tn_model1 = 56842 # Verdadeiros Negativos
 
-# Penúltimo pior modelo
+Penúltimo pior modelo
 
 fp_model2 = 8  # Falsos Positivos
 fn_model2 = 56 # Falsos Negativos
