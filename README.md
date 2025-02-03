@@ -82,13 +82,13 @@ Penúltimo pior modelo
 3. Definindo os custos:
    
 Custo por investigação de falsos positivos: Custo de identificar erroneamente uma fraude.
-custo_por_investigacao_fp = 100 # Custo por investigação de Falsos Positivos (em unidades monetárias)
+custo_por_investigacao_fp = 100 (Custo por investigação de Falsos Positivos (em unidades monetárias)
 
 Valor recuperado por fraude identificada: O valor financeiro recuperado a partir de fraudes corretamente identificadas.
-valor_recuperado_por_fraude = 500 # Valor recuperado por fraude identificada (em unidades monetárias)
+valor_recuperado_por_fraude = 500 (Valor recuperado por fraude identificada (em unidades monetárias)
 
 Custo de oportunidade por falsos negativos: O custo de não identificar uma fraude (perda de oportunidade).
-custo_oportunidade_fn = 500 # Custo de oportunidade por Falsos Negativos (em unidades monetárias)
+custo_oportunidade_fn = 500 (Custo de oportunidade por Falsos Negativos (em unidades monetárias)
 
 4. Cálculos: 
 
@@ -98,7 +98,7 @@ Cálculo do ROI: Retorno sobre o investimento, calculado a partir do valor recup
 
  ![deteccao_fraude](img/resultado_negocio.JPG)
 
-Neste caso, a proporção do custo de internação por paciente em relação a uma classificação com algoritmo de média em comparação com o melhor algoritmo resulta em uma redução de mais de 60%.
+O melhor modelo não só identifica mais fraudes (39000 unidades monetárias em fraudes identificadas), mas também tem um ROI positivo e alto, de 2,20 (ou 220%), o que significa que ele gera um retorno muito maior do que o custo envolvido. Em contrapartida, o penúltimo pior modelo gera perdas financeiras, pois tem um ROI negativo (-0,27), o que indica que os custos com falsos negativos são altos e o valor das fraudes identificadas é muito baixo em comparação com o custo total.
 
 ## 9.	Conclusão
 Neste trabalho, o objetivo foi analisar um modelo de detecção de fraudes utilizando dados desbalanceados e testar hipóteses sobre o comportamento das transações e dos usuários. Algumas hipóteses foram refutadas, oferecendo insights para aprimorar o modelo.
