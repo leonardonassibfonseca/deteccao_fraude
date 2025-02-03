@@ -74,10 +74,10 @@ Melhor modelo
 
 Penúltimo pior modelo
 
-fp_model2 = 8  # Falsos Positivos
-fn_model2 = 56 # Falsos Negativos
-tp_model2 = 42 # Verdadeiros Positivos
-tn_model2 = 56856 # Verdadeiros Negativos
+- fp_model2 = 8  # Falsos Positivos
+- fn_model2 = 56 # Falsos Negativos
+- tp_model2 = 42 # Verdadeiros Positivos
+- tn_model2 = 56856 # Verdadeiros Negativos
 
 3. Definindo os custos:
    
